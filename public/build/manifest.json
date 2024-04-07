@@ -23,9 +23,9 @@
       "resources/js/app.js"
     ]
   },
-  "_MyCKEditor-!~{00k}~.js": {
+  "_MyCKEditor-!~{00l}~.js": {
     "file": "assets/MyCKEditor-Cy-RJ9CM.css",
-    "src": "_MyCKEditor-!~{00k}~.js"
+    "src": "_MyCKEditor-!~{00l}~.js"
   },
   "_MyCKEditor-DnC7nePN.js": {
     "file": "assets/MyCKEditor-DnC7nePN.js",
@@ -302,5 +302,10 @@
     "css": [
       "assets/app-CI3E3FO5.css"
     ]
+  },
+  "resources/scss/app.scss": {
+    "file": "assets/app-D1flk8Is.css",
+    "src": "resources/scss/app.scss",
+    "isEntry": true
   }
 }

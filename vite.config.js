@@ -4,11 +4,12 @@ import vue from "@vitejs/plugin-vue";
 import { createRequire } from "node:module";
 const require = createRequire(import.meta.url);
 import ckeditor5 from "@ckeditor/vite-plugin-ckeditor5";
+import path from "node:path";
 
 export default defineConfig({
     plugins: [
         laravel({
-            input: "resources/js/app.js",
+            input: ["resources/scss/app.scss", "resources/js/app.js"],
             refresh: true,
         }),
         vue({
@@ -21,4 +22,17 @@ export default defineConfig({
         }),
         ckeditor5({ theme: require.resolve("@ckeditor/ckeditor5-theme-lark") }),
     ],
+    // css: {
+    //     preprocessorOptions: {
+    //         scss: {
+    //             additionalData: `@import "resources/css/app.scss";`,
+    //         },
+    //     },
+    // },
+    // resolve: {
+    //     alias: {
+    //         // You may need to adjust the path based on your project structure
+    //         // "@": path.resolve(__dirname, "./resources"),
+    //     },
+    // },
 });
