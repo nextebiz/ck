@@ -1,0 +1,39 @@
+body,
+html {
+    background-color: #f9f9f9;
+}
+
+.ckclass {
+    h1 {
+        color: yellow
+    }
+    h2{
+        @apply text-red-500 text-3xl
+     }
+
+}
+
+.mytable {
+    @apply w-full border;
+
+    td {
+        @apply p-2 border bg-white
+    }
+}
+
+.link-blue {
+    @apply text-blue-500 hover:text-red-500 transition-all;
+}
+
+.btn-blue {
+    @apply bg-blue-500 text-white px-4 py-2;
+}
+.btn-red {
+    @apply bg-red-500 text-white px-4 py-2;
+}
+
+.ck-editor__editable {
+    min-height: 300px;
+}
+
+
