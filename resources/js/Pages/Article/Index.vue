@@ -4,7 +4,7 @@
 
     <AuthenticatedLayout>
         <template #header>
-            <h2 class="font-semibold text-xl text-gray-800 leading-tight">All Articles</h2>
+            <h2 class="font-semibold text-xl text-gray-800 leading-tight">xAll Articles</h2>
         </template>
         <div class="container m-auto">
             <NavLinks></NavLinks>
